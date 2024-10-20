@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotes Generator</title>
+    <!-- style -->
+     <link rel="stylesheet" href="./style.css">
+     <!-- JavaScript -->
+      <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="container-category">
+        <div>
+            <input type="radio" class="category" id="happiness" name="quoteCategory" value="happiness">
+                <label for="happiness">happiness</label>
+            </div>
+            <div>
+            <input type="radio" class="category" id="motivation" name="quoteCategory" value="motivation">
+                <label for="motivation">motivation</label>
+            </div>
+            <div>
+            <input type="radio" class="category" id="wisdom" name="quoteCategory" value="wisdom">
+                <label for="wisdom">wisdom</label>
+            </div>
+        <button class="generate" id="generate">generate</button>
+    </div>
+    <p class="quote" id="quote"></p>
+</body>
+</html>
